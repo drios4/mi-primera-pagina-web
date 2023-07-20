@@ -1,28 +1,106 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mi primera página web</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Mi Portafolio</title>
+  <style>
+    /* Estilos generales */
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    }
+
+    h1, h2 {
+    color: #FFD1DC;
+    }
+
+    /* Estilos para la sección de presentación */
+    #presentacion {
+     
+    background-color: #f2f2f2;
+    padding: 20px;
+    }
+    #presentacion img {
+    width: 300px; /* Cambia el ancho deseado de la imagen */
+    height: auto; /* El valor "auto" mantiene la proporción original */
+    border-radius: 50%; /* Si quieres un borde redondeado, puedes agregar esta propiedad */
+    }
+
+    /* Estilos para la lista de proyectos destacados */
+    #proyectos  {
+    list-style: none;
+    padding: 20;
+    }
+
+    /* Estilos para la sección de habilidades */
+    #habilidades  {
+    list-style: none;
+    background-color: #FF0000;
+    padding: 20;
+    column-count: 2;
+    }
+
+    /* Estilos para la sección de experiencia laboral */
+    #experiencia  {
+    list-style: none;
+    padding: 0;
+    }
+
+    /* Estilos para la sección de contacto */
+    #contacto {
+    background-color: #FFF8DC;
+    margin-top: 20px;
+    }
+
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Bienvenido a mi página web</h1>
-    </header>
-    <nav>
-        <!-- Puedes agregar enlaces aquí -->
-    </nav>
-    <main>
-        <section>
-            <h2>Sobre mí</h2>
-            <p>¡Hola! Soy [Tu Nombre]. Bienvenido a mi página web.</p>
-        </section>
-        <section>
-            <h2>Mis intereses</h2>
-            <p>Aquí puedes describir tus intereses y pasatiempos.</p>
-        </section>
-    </main>
-    <footer>
-        <p>Contacto: correo@example.com</p>
-    </footer>
+  <!-- Sección de Presentación -->
+  <section id="presentacion">
+    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Cabecera del Portafolio">
+    <h1>Mi Nombre</h1>
+    <p>Desarrollador web apasionado y creativo. Experiencia en HTML, CSS, JavaScript y frameworks. Buscando retos en un equipo innovador. 🚀</p>
+  </section>
+
+  <!-- Sección de Proyectos Destacados -->
+  <section id="proyectos">
+    <h2>Proyectos Destacados</h2>
+    <ul>
+      <li>Proyecto 1 - Descripción breve del proyecto y logros.</li>
+      <li>Proyecto 2 - Descripción breve del proyecto y logros.</li>
+      <li>Proyecto 3 - Descripción breve del proyecto y logros.</li>
+    </ul>
+  </section>
+
+  <!-- Sección de Habilidades -->
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Frameworks (ej. React, Angular)</li>
+      <li>Diseño responsive</li>
+    </ul>
+  </section>
+
+  <!-- Sección de Experiencia Laboral -->
+  <section id="experiencia">
+    <h2>Experiencia Laboral</h2>
+    <ul>
+      <li>Nombre de la Empresa - Cargo (Fechas)</li>
+      <li>Nombre de la Empresa - Cargo (Fechas)</li>
+    </ul>
+  </section>
+
+  <!-- Sección de Contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Email: tuemail@example.com</p>
+    <p>Teléfono: (123) 456-7890</p>
+    <p>Sitio web: www.tusitio.com</p>
+  </section>
 </body>
 </html>
+
