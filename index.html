@@ -4,53 +4,74 @@
   <title>Mi Portafolio</title>
   <style>
     /* Estilos generales */
-    body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 20px;
-    }
-
-    h1, h2 {
-    color: #FFD1DC;
-    }
+        body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 20px;
+        }
+        h1, h2 {
+        color: #FFD1DC;
+        margin: bottom 20px;
+        }
 
     /* Estilos para la sección de presentación */
     #presentacion {
-     
-    background-color: #f2f2f2;
-    padding: 20px;
-    }
+        background-color: #f2f2f2;
+        padding: 20px;
+        text-align: center;
+        }
     #presentacion img {
-    width: 300px; /* Cambia el ancho deseado de la imagen */
-    height: auto; /* El valor "auto" mantiene la proporción original */
-    border-radius: 50%; /* Si quieres un borde redondeado, puedes agregar esta propiedad */
-    }
+        width: 300px; /* Cambia el ancho deseado de la imagen */
+        height: auto; /* El valor "auto" mantiene la proporción original */
+        border-radius: 50%; /* Si quieres un borde redondeado, puedes agregar esta propiedad */
+        width: 200px;
+        height: auto;
+        border-radius: 50%;
+        display: block; /* Convertir la imagen en un elemento de bloque */
+        margin: 0 auto; /* Estilos para centrar la imagen */
+
+        }
 
     /* Estilos para la lista de proyectos destacados */
     #proyectos  {
-    list-style: none;
-    padding: 20;
-    }
+        list-style: none;
+        padding: 20;
+        }
 
     /* Estilos para la sección de habilidades */
     #habilidades  {
-    list-style: none;
-    background-color: #FF0000;
-    padding: 20;
-    column-count: 2;
-    }
+        list-style: none;
+        background-color: #FF0000;
+        padding: 20;
+        column-count: 2;
+        }
 
     /* Estilos para la sección de experiencia laboral */
     #experiencia  {
-    list-style: none;
-    padding: 0;
-    }
+        list-style: none;
+        padding: 0;
+        }
 
     /* Estilos para la sección de contacto */
-    #contacto {
-    background-color: #FFF8DC;
-    margin-top: 20px;
+        #contacto {
+        background-color: #FFF8DC;
+        margin-top: 20px;
+    }  
+    p {
+      max-width: 600px; 
+      text-align: center;
+      margin: 0 auto; 
+      margin: bottom 20px;
+    }
+    ul {
+      list-style-type: none; 
+      padding: 0; 
+      margin: 0;
+    } 
+    li {
+      display:inline; 
+      margin-right: 10px;
     }
 
   </style>
@@ -59,15 +80,20 @@
   <!-- Sección de Presentación -->
   <section id="presentacion">
     <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Cabecera del Portafolio">
-    <h1>Mi Nombre</h1>
+    <h1>Dimas Rios</h1>
     <p>Desarrollador web apasionado y creativo. Experiencia en HTML, CSS, JavaScript y frameworks. Buscando retos en un equipo innovador. 🚀</p>
+        <ul class="redes-sociales">
+            <li><a href="https://www.linkedin.com/in/tu_perfil/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.github.com/tu_usuario/" target="_blank">GitHub</a></li>
+            <li><a href="https://www.twitter.com/tu_usuario/" target="_blank">Twitter</a></li>
+        </ul>
   </section>
 
   <!-- Sección de Proyectos Destacados -->
   <section id="proyectos">
     <h2>Proyectos Destacados</h2>
     <ul>
-      <li>Proyecto 1 - Descripción breve del proyecto y logros.</li>
+      <li>Chat GPT WEB .</li>
       <li>Proyecto 2 - Descripción breve del proyecto y logros.</li>
       <li>Proyecto 3 - Descripción breve del proyecto y logros.</li>
     </ul>
@@ -97,10 +123,9 @@
   <!-- Sección de Contacto -->
   <section id="contacto">
     <h2>Contacto</h2>
-    <p>Email: tuemail@example.com</p>
-    <p>Teléfono: (123) 456-7890</p>
-    <p>Sitio web: www.tusitio.com</p>
+        <p>Email: tuemail@example.com</p>
+        <p>Teléfono: (123) 456-7890</p>
+        <p>Sitio web: www.tusitio.com</p>
   </section>
 </body>
 </html>
-
